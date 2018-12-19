@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c:400,800">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <section id="top" class="sec-cmn">
+    <h1 class="ttl-top">スマホ<span>de</span>投扇興</h1>
+    <figure class="fig-top"><img src="images/img_mainimg.png" alt="投扇興の画像"></figure>
+    <button id="start" class="btn-top" type="button" name="button"><img src="images/txt_start.png" alt="スタート"></button>
+  </section>
+
+  <section id="main" class="sec-cmn">
+    <figure class="fig-game"><img src="images/img_game.png" alt="ゲーム背景"></figure>
+    <div id="flick" class="area-flick"></div>
+  </section>
+
+  <section id="anime" class="sec-cmn anime">
+    <figure id="animetion" class="fig-anime"><img src="images/img_oogi.png" alt="扇"></figure>
+  </section>
+
+  <section id="result" class="sec-cmn">
+    <h2 class="ttl-result">結果</h2>
+    <figure class="fig-result">
+      <img id="img" src="" alt="">
+      <figcaption class="fig-cap">著作権者：花宴、ライセンス：<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>、取得元：<a href="https://ja.wikipedia.org/wiki/%E6%8A%95%E6%89%87%E8%88%88" target="_blank">Wikipedia</a></figcaption>
+    </figure>
+    <div class="area-result">
+      <p id="name" class="txt-name"></p>
+      <p class="txt-point">：<span id="point"></span>点</p>
+    </div>
+    <p id="detail" class="txt-detail"></p>
+    <button id="back" class="btn-result" type="button" name="button"><img src="images/ico_home.png" alt="ホーム"></button>
+  </section>
+
+  <script src="js/data.js"></script>
+  <script src="js/judgement.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
